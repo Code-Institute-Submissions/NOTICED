@@ -1,0 +1,38 @@
+
+
+header {
+    margin: 0;
+}
+
+
+.bg-color
+ {
+    background-color: #000;
+}
+
+.logo {
+    background: url("../images/noticed.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+
+
+
+.navbar {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    margin-top: 150px;
+    min-height: 205px;
+    display: inline-block;
+    color: #fff;
+}
+    
+
+
