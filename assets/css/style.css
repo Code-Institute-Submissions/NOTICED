@@ -8,14 +8,22 @@ header {
 
 
 .nav-bg {
-    background: url("../images/shoebar.jpg");
+    height: 180px;
+    background: url("../images/noticed.png");
+     background-color: black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   
-   
-    height: 100%;
-    width: 100%;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+}
+
+.nav-bg2 {
+    height: 180px;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -23,28 +31,31 @@ header {
 
 
 
-
-/* Menu Navigation */  
-
-.menustyle {
-    font-family: "Exo", sans-serif;
-    font-weight: 100;
-    font-size: 25px;
-    text-transform: uppercase;
-    word-spacing: 15px;
-    margin: 0px;
-   
-    min-height: 152px;
-   
-    text-shadow: 1px 1px 2px #000;
+/* Navigation Menu */  
+.ui-menu-color {
+    background-color: black
 }
 
+.list-inline-item:not(:last-child) {
+    margin: 0; 
+}
+.menucontainer {
+    font-size: 0;
+}
 
+#nav li {
+    margin-top: 68px;
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+    padding-right: 35px;
+
+}
 
   /* Middle Section for Carousel */  
 
 .section {
-    height: 460px;
+    height: 360px;
     background: url("../images/wthtea.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -57,29 +68,24 @@ header {
 
 
 
-.list-inline-item {
-    font-family: "Exo", sans-serif;
-    font-weight: 80;
-    font-size: 20px;
-    margin-top: 150px;
-    min-height: 205px;
-    
-    display: inline-block;
-    color: #fff;
-}
+
 
   hr.each-section {
         border: 1px solid red;
  }
 
 
-.list-inline social-links {
-        display: none;
-}
-
 .footstyle {
+    height: 180px;
+    background-color: black;
     font-family: "Exo", sans-serif;
     font-weight: 80;
     font-size: 25px;
-    color: green;
+    color: whitesmoke;
+}
+
+#fineprint p {
+    font-size: 0px;
+    color: whitesmoke;
+    text-align: center;
 }
