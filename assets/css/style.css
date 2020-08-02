@@ -8,9 +8,8 @@ header {
 
 
 .nav-bg {
-    height: 180px;
+    height: 150px;
     background: url("../images/noticed.png");
-    background-color: black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,7 +18,7 @@ header {
 }
 
 .nav-bg2 {
-    height: 180px;
+    height: 150px;
     background-color: black;
     background-position: center;
     background-repeat: no-repeat;
@@ -41,8 +40,8 @@ header {
 }
 
 #nav li {
-    margin-top: 75px;
-    font-size: 20px;
+    margin-top: 60px;
+    font-size: 18px;
     text-align: center;
     padding-right: 35px; 
 }
@@ -51,7 +50,7 @@ header {
     color: black;
     text-transform: uppercase;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 70;
     letter-spacing: 2px;
     text-shadow: 2px 2px whitesmoke;
 
@@ -59,8 +58,8 @@ header {
 
   /* Middle Section for Carousel */  
 
-.section {
-    height: 360px;
+.section1 {
+    height: 460px;
     background: url("../images/wthtea.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -70,8 +69,38 @@ header {
     font-size: 20px;
 }
 
+.section2 {
+    height: 460px;
+    background: url("../images/jeans.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Exo", sans-serif;
+    font-weight: 80;
+    font-size: 20px;
+}
 
+.section3 {
+    height: 460px;
+    background: url("../images/tea.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Exo", sans-serif;
+    font-weight: 80;
+    font-size: 20px;
+}
 
+.section4 {
+    height: 460px;
+    background: url("../images/navbar.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Exo", sans-serif;
+    font-weight: 80;
+    font-size: 20px;
+}
 
 
 
@@ -90,7 +119,7 @@ header {
 }
 
 .footstyle h1 {
-    margin-top: 20px;
+    margin-top: 30px;
     color: black;
     font-weight: 80;
     font-size: 20px;
