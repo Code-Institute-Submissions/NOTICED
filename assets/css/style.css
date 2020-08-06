@@ -43,7 +43,7 @@ header {
 #nav li {
     font-family: "kessel", sans-serif;
     margin-top: 70px;
-    font-size: 9px;
+    font-size: 12px;
     text-align: center;
     padding-right: 35px; 
 }
@@ -81,13 +81,36 @@ header {
 }
 
 
+
+
 .section2 {
     height: 460px;
-    background: url("../images/jeans.jpg");
+    background: url("../images/high-st.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+.section2-text {
+    margin-top: 20px;
+    margin-left: 25px;
+    color: whitesmoke;
+    font-weight: 80;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px black;  
+}
+
+
+#menu2 {
+    font-weight: 280;
+    font-size: 30px;
+}
+
+
+
+
 
 .section3 {
     height: 460px;
@@ -100,13 +123,30 @@ header {
 
 .section4 {
     height: 460px;
-    background: url("../images/navbar.jpg");
+    background: url("../images/contact.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover;  
 }
 
+
+
+.section4-text {
+    margin-top: 20px;
+    margin-left: 25px;
+    color: whitesmoke;
+    font-weight: 80;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px black;   
+}
+
+#menu4 {
+    font-weight: 280;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow: 2px 1px black;   
+}
 
 
   hr.each-section {
