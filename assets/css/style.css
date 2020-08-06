@@ -7,6 +7,7 @@ header {
 /* commenting out in css */
 
 
+
 .nav-bg {
     height: 150px;
     background: url("../images/noticed.png");
@@ -40,8 +41,9 @@ header {
 }
 
 #nav li {
-    margin-top: 60px;
-    font-size: 18px;
+    font-family: "kessel", sans-serif;
+    margin-top: 70px;
+    font-size: 9px;
     text-align: center;
     padding-right: 35px; 
 }
@@ -60,14 +62,24 @@ header {
 
 .section1 {
     height: 460px;
-    background: url("../images/wthtea.jpg");
+    background: url("../images/guy1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Exo", sans-serif;
+    color: black;
     font-weight: 80;
-    font-size: 20px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-shadow: 2px 1px whitesmoke;    
 }
+    
+.section1 p {
+    margin-top: 200px;
+    width: 50%;
+    height: 50%;
+}
+
 
 .section2 {
     height: 460px;
@@ -75,9 +87,6 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: "Exo", sans-serif;
-    font-weight: 80;
-    font-size: 20px;
 }
 
 .section3 {
@@ -86,9 +95,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: "Exo", sans-serif;
-    font-weight: 80;
-    font-size: 20px;
+    
 }
 
 .section4 {
@@ -97,15 +104,13 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: "Exo", sans-serif;
-    font-weight: 80;
-    font-size: 20px;
+    
 }
 
 
 
   hr.each-section {
-        border: 1px solid red;
+        border: 1px solid #676767;
  }
 
 
@@ -131,4 +136,11 @@ header {
 .footstyle p {
         color: whitesmoke;
         font-size: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+#nav li {
+    margin-top: 20px;
+        }
+    
 }
