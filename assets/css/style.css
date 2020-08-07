@@ -59,73 +59,27 @@ header {
 }
 
   /* Middle Section for Carousel */  
- #slider {
-        overflow: hidden;
-    }
-
-    #slider figure {
-        position: relative;
-        width: 500%;
-        margin: 0;
-        left: 0;
-        animation: 20s slider infinite;  
-    }
-
-    #slider figure img {
-        width: 20%;
-        float: left;
-    }
-
-    @keyframes slider {
-        0% {
-            left: 0;
-        }
-        20% {
-            left: 0;
-        }
-        25% {
-            left: -100%;
-        }
-         45% {
-            left: -100%;
-        }
-        50% {
-            left: -200%;
-        }
-        70% {
-            left: -200%;
-        }
-        75% {
-            left: -300%;
-        }
-
-        95% {
-            left: -300%;
-        }
-    }
-
-
+ 
 .section1 {
     height: 460px;
-    background: url("../images/guy1.jpg");
+    background: url("../images/slide7.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: "Exo", sans-serif;
-    color: black;
-    font-weight: 80;
-    font-size: 10px;
-    letter-spacing: 2px;
-    text-shadow: 2px 1px whitesmoke;    
+   
 }
     
-.section1 p {
-    margin-top: 200px;
-    width: 50%;
-    height: 50%;
+.section1-text {
+    margin-top: 360px;
+    margin-left: 25px;
+    color: whitesmoke;
+    font-weight: 80;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px black;  
 }
-
-
 
 
 .section2 {
@@ -155,16 +109,70 @@ header {
 
 
 
-
-
-.section3 {
+.section3-1 {
     height: 460px;
-    background: url("../images/tea.jpg");
+    background: url("../images/slide3.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover; 
 }
+
+.section3-1 p {
+    margin-top: 270px;
+    margin-left: 25px;
+    color: whitesmoke;
+    font-weight: 80;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-shadow: 1px 2px black;  
+}
+
+.section3-2 {
+    height: 460px;
+    background: url("../images/wthtea.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.section3-2 p {
+    margin-top: 50px;
+    margin-left: 25px;
+    color: whitesmoke;
+    font-weight: 80;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px black;  
+}
+
+.section3-3 {
+    height: 460px;
+    background: url("../images/slide6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.section3-3 p {
+    margin-top: 200px;
+    margin-left: 25px;
+    color: whitesmoke;
+    font-weight: 80;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px black;  
+}
+
+
+#menu3 {
+    margin-top: 20px;
+    margin-left: 25px;
+    color: whitesmoke;
+    font-weight: 280;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px black;  
+}
+
 
 .section4 {
     height: 460px;
