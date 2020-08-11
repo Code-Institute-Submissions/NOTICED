@@ -6,10 +6,30 @@ NØTICED is a luxury fashion brand, so we expect a luxury feel in the user exper
 
 
 ## UX
-The UX is starting at the ‘Home Page’ which will feature rich imagery exuding a great feeling of quality and aspirational luxury to introduce the site.
+The UX starts at the ‘Home Page’ which will feature rich imagery exuding a great feeling of quality and aspirational luxury to introduce the site.
 The top banner will include navigation with the Nøticed signature logo.
 
 The clientele having been used to promotions on Instagram will now experience a great rich media experience creating the luxury brand awareness that the proprietor craves.
+
+**Wireframes**
+
+Home Page
+https://wireframe.cc/pro/pp/2835a5c82345276#qpqxn2wx
+
+
+About
+https://wireframe.cc/pro/pp/2835a5c82345276#n88rtfrg
+
+
+Selection
+https://wireframe.cc/pro/pp/2835a5c82345276#retj2yvu
+
+
+Contact
+https://wireframe.cc/pro/pp/2835a5c82345276#retj2yvu
+
+
+
 
 ## User stories
 1. As a proprietor I want to be able to showcase my designs in a way that promotes the brand and generates the feeling of aspiration
@@ -28,7 +48,7 @@ The site currently consists of a Navigational Bar and Footer common across the f
 * Contact
 
 
-## Features Left to Implement
+## Features left to implement
 
 - The pages will be sections which may be scrolled with a fixed Nav Bar.
 - A Promotionla Video video will run on the Home Page
