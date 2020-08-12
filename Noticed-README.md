@@ -74,13 +74,28 @@ Initially the site was produced using desk top as the reference, however during 
 for the text making them more vivid.
 
 ## Deployment
-xxxxxxxxxxxxxxxx
+Deployment has been done using Github Pages
+https://g-dev-01.github.io/NOTICED/index.html
 
+Github offers a hosting facility for static web pages, this is quite staright forward if you have a Github account
+and repository for your code. 
 
+Publishing may be done from any of the branches in a repository.
 
+For this website I have used 'master' with the view that enhancements may be made on other branches which may then be merged to master once it is working satisfactorily
+this has been achieved by following the instructions at the link below under credits.
+From the G-Dev-01 Repository, I clicked on Settings and scrolled down to Github Pages in order to select the source, in this case this was the master main branch/root.
+
+Clicked on Save
+
+Website was automatically published on Github pages at the follwing link which was indicated on the settings page.
+https://g-dev-01.github.io/NOTICED/
+
+Github Pages is designed to host personal, organisation or project pages from a Github repository.
 
 ## Credits
-xxxxxxxxxxxxxxxxx
+Instructions for configuring the a publishing source from Github may be found at the following link 
+https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
 
 ### Content
