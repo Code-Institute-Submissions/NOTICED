@@ -64,14 +64,64 @@ CSS
 
 Bootstrap 4
 
-
 ## Testing
-For this first phase testing is limited to a visual inspection of the pages; noting the fuctionality of the navigation bar, use of imagery as well as the look & feel of the site.
+HTML Files were validated using the following website:-
+
+https://validator.w3.org/
+
+
+index.html test results were OK with the following warning:-
+
+Warning Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
+From line 43, column 6; to line 43, column 31
+
+about.html 
+
+Warning: Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools).
+
+From line 48, column 13; to line 48, column 27
+
+          <h1 id="menu2">About<
+
+selection.html
+
+Warning: Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools).
+
+From line 47, column 13; to line 47, column 27
+
+          <h1 id="menu3">Select
+
+
+contact.html
+
+Warning: Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools).
+
+From line 48, column 13; to line 48, column 27
+
+          <h1 id="menu4">Contac
+
+
+
+The CSS file was validated using the following website:-
+
+https://jigsaw.w3.org/css-validator/
+
+
+
+
+
+
+
+
+Apart from testing the code, a visual inspection of the pages was carried out, noting the fuctionality of the navigation bar, use of imagery as well as the look & feel of the site.
 
 The site is Responsive, tested for Web, Mobile Phones & Tablets.
 
 Initially the site was produced using desk top as the reference, however during testing the view on iPad was not representative, so the font weights and sizes were modified
-for the text making them more vivid.
+for the text, making them more vivid.
+
+
+
 
 ## Deployment
 Deployment has been done using Github Pages
