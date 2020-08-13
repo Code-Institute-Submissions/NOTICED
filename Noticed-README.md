@@ -75,7 +75,12 @@ index.html test results were OK with the following warning:-
 Warning Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
 From line 43, column 6; to line 43, column 31
 
-about.html 
+This was corrected by replacing the section element with a div.
+
+
+about, selection & contact web pages returned errors as follows:-
+
+about.html
 
 Warning: Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools).
 
@@ -100,22 +105,18 @@ From line 48, column 13; to line 48, column 27
 
           <h1 id="menu4">Contac
 
+This was corrected by replacing the section element with a div.
 
 
 The CSS file was validated using the following website:-
 
 https://jigsaw.w3.org/css-validator/
 
-
-
-
-
-
-
+Font-weight errors returned; the errors were corrected by rounding up to the nearest valid value with satisfactory visual results.
 
 Apart from testing the code, a visual inspection of the pages was carried out, noting the fuctionality of the navigation bar, use of imagery as well as the look & feel of the site.
 
-The site is Responsive, tested for Web, Mobile Phones & Tablets.
+The site is Responsive acieved using Bootstrap 4 "row and columns", tested for Web, Mobile Phones & Tablets.
 
 Initially the site was produced using desk top as the reference, however during testing the view on iPad was not representative, so the font weights and sizes were modified
 for the text, making them more vivid.
