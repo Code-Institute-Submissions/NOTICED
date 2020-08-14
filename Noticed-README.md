@@ -72,8 +72,8 @@ https://validator.w3.org/
 
 index.html test results were OK with the following warning:-
 
-Warning Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
-From line 43, column 6; to line 43, column 31
+*Warning Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
+From line 43, column 6; to line 43, column 31*
 
 This was corrected by replacing the section element with a div.
 
@@ -82,24 +82,24 @@ about, selection & contact web pages returned errors as follows:-
 
 about.html
 
-Warning: Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools).
+*Warning: Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools).*
 
-From line 48, column 13; to line 48, column 27
+*From line 48, column 13; to line 48, column 27*
 
           <h1 id="menu2">About<
 
 selection.html
 
-Warning: Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools).
+*Warning: Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools).*
 
-From line 47, column 13; to line 47, column 27
+*From line 47, column 13; to line 47, column 27*
 
           <h1 id="menu3">Select
 
 
 contact.html
 
-Warning: Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools).
+*Warning: Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools).*
 
 From line 48, column 13; to line 48, column 27
 
@@ -112,7 +112,7 @@ The CSS file was validated using the following website:-
 
 https://jigsaw.w3.org/css-validator/
 
-Font-weight errors returned; the errors were corrected by rounding up to the nearest valid value with satisfactory visual results.
+Font-weight errors were returned; the errors were corrected by rounding up to the nearest valid value with satisfactory visual results.
 
 Apart from testing the code, a visual inspection of the pages was carried out, noting the fuctionality of the navigation bar, use of imagery as well as the look & feel of the site.
 
@@ -149,16 +149,16 @@ Instructions for configuring the a publishing source from Github may be found at
 https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
 
-### Content
-xxxxxxxxxxxxxx
+## Content
+The Code 
 
 
 
-### Media
+## Media
 The imagery used in this site were obtained from Unsplash.com providing copyright free imagery.
 https://unsplash.com/s/photos/clothing
 
-### Acknowledgements
+## Acknowledgements
 Inspiration for this web site may be attributed to Luke Menswear, with time permitting I would like to incorporate many of the elements and styling used on this website
 
 http://luke1977.com
