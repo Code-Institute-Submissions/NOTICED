@@ -70,8 +70,8 @@ header {
 }
     
 .section1-text {
-    margin-top: 310px;
-    margin-left: 25px;
+    
+    padding: 300px 5px 5px 5px;
     color: whitesmoke;
     font-weight: 300;
     font-size: 20px;
