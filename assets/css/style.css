@@ -173,6 +173,12 @@ header {
     text-shadow: 1px 2px black;  
 }
 
+.products-form {
+     background: url("../images/order-form.png");
+     background-size: cover;
+     height: 400px;
+     width: 100%;
+}
 
 .section4 {
     height: 460px;
