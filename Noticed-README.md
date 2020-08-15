@@ -1,5 +1,9 @@
 # NØTICED LUXURY FASHION WEBSITE
 
+<p align="center">
+  <img src="https://github.com/G-Dev-01/NOTICED/blob/0ab5055fe708be26702ec3945bf4c58346b23624/assets/images/noticed.png?raw=true" alt="noticed logo"/>
+</p>
+
 This project is a website to showcase items of clothing, footwear and face masks which may be supplied directly via the website.
 
 NØTICED is a luxury fashion brand, so we expect a luxury feel in the user experience of the website with detailed information about the items.
