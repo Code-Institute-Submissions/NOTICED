@@ -114,7 +114,7 @@
         </div>
       </div>
     </div>
-    <!--Modal Insertion from w3Schools -->
+    <!--Modal Insertion from 3rd Party -->
     <div class="container">
       <!-- The Modal -->
       <div class="modal" id="myModal">
@@ -122,14 +122,138 @@
           <div class="modal-content">
             <!-- Modal Header -->
             <div class="modal-header">
-              <h4 class="modal-title">Mock 'Purchase Form'</h4>
+              <h4 class="modal-title">Purchase Form</h4>
               <button type="button" class="close" data-dismiss="modal">
                 &times;
               </button>
             </div>
 
             <!-- Modal body -->
-            <div class="modal-body products-form"></div>
+            <div class="modal-body products-form">
+            
+          <form>
+            <div class="form-group">
+              <label for="email-exc" class="custom-label">Email address</label>
+              <input type="email" class="form-control" id="email-exc" placeholder="Enter your email" required aria-label="email" />
+              <small class="form-text text-muted">your email remains private & confidential</small>
+            </div>
+            <div class="form-group">
+              <label for="name-exc" class="custom-label">Your name</label>
+              <input type="text" class="form-control" id="name-exc" placeholder="Enter your name" required aria-label="full name" />
+              <small class="form-text text-muted">First Name / Last Name</small>
+            </div>
+            <div class="form-group">
+              <label for="phone-exc" class="custom-label">Your mobile number</label>
+              <input type="tel" class="form-control" id="phone-exc" placeholder="Enter your phone number" required aria-label="phone number" />
+            </div>
+
+            <!-- Item Selection -->
+            <div class="row">
+              <div class="input-group col-sm-6 dd-custom dd-custom-item">
+                <div class="input-group-prepend dd-custom-label">
+                  <label class="input-group-text" for="inputGroupSelect-exc">Product</label>
+                </div>
+                <select class="custom-select" id="inputGroupSelect-exc" aria-label="choose item">
+
+                  <option selected value="item1">Choose Item</option>
+                  <option value="item2">Multi-Coloured Head Wrap</option>
+                  <option value="item3">White T-Shirt</option>
+                  <option value="item4">Brown Sports Jacket</option>
+                </select>
+              </div>
+
+              <div class="input-group col-sm-6 dd-custom dd-custom-size">
+                <div class="input-group-prepend dd-custom-label">
+                  <label class="input-group-text" for="inputGroupSelect-exc-size">Size</label>
+                </div>
+                <select class="custom-select" id="inputGroupSelect-exc-size" aria-label="choose size">
+                  <option value="item5">Small</option>
+                  <option value="item6">Medium</option>
+                  <option value="item7">Large</option>
+                  <option value="item8">X-Large</option>
+                </select>
+ 
+
+              </div>
+            </div>
+            <div class="creditCardForm">
+              <div class="heading">
+                <h1 class="payment-heading">Confirm Purchase</h1>
+              </div>
+              <div class="payment">
+
+                <div class="form-group owner">
+                  <label for="owner-exc" class="custom-label">Owner</label>
+                  <input type="text" class="form-control" id="owner-exc" placeholder="Name of card holder" required>
+                </div>
+
+                <div class="form-group CVV">
+                  <label for="cvv-exc">CVV</label>
+                  <a href="https://www.cvvnumber.com/" target="_blank" data-toggle="popover" title="A three digit number located on the back of your card in the signature panel"
+                    data-content="A three digit number located on the back of your card in the signature panel">
+                    <i class="far fa-question-circle questionmark"></i>
+                  </a>
+                  <input type="text" pattern="[0-9]{3}" id="cvv-exc" placeholder="CVV 3 digits" required>
+                </div>
+
+                <div class="form-group" id="card-number-field-exc">
+                  <label for="cardnumber-exc" class="custom-label">Card Number</label>
+                  <input type="text" pattern="[0-9]{16}" class="form-control" id="cardnumber-exc" placeholder="Input 16 digit credit card number" required>
+                </div>
+                <div class="form-group" id="expiration-date-exc">
+                  <label class="custom-label">Expiration Date</label>
+                  <select required>
+                    <option value="" disabled selected hidden>Month</option>
+                    <option value="01">January</option>
+                    <option value="02">February </option>
+                    <option value="03">March</option>
+                    <option value="04">April</option>
+                    <option value="05">May</option>
+                    <option value="06">June</option>
+                    <option value="07">July</option>
+                    <option value="08">August</option>
+                    <option value="09">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                  </select>
+                  <select required>
+                    <option value="" disabled selected hidden>Year</option>
+                    <option value="16"> 2020</option>
+                    <option value="17"> 2021</option>
+                    <option value="18"> 2022</option>
+                    <option value="19"> 2023</option>
+                    <option value="20"> 2024</option>
+                    <option value="21"> 2025</option>
+                  </select>
+                </div>
+                <div class="form-group credit_cards">
+                  <img src="assets/images/visa.png" alt="Visa" width="50" height="30">
+                  <img src="assets/images/mastercard.png" alt="Mastercard" width="50" height="30">
+
+                </div>
+
+
+              </div>
+            </div>
+
+
+
+            <!-- Wheel and size selection end -->
+            <div class="row">
+              <div class="col modal-footer">
+                <button type="submit" class="btn btn-success btn--custom btn--submit">
+                  Pay Now
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <!-- End form for Modal-->
+            
+            
+            
+            </div>
 
             <!-- Modal footer -->
             <div class="modal-footer">
