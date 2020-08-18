@@ -1,9 +1,8 @@
-# NØTICED LUXURY FASHION WEBSITE
-
 <p align="center">
   <img src="https://github.com/G-Dev-01/NOTICED/blob/0ab5055fe708be26702ec3945bf4c58346b23624/assets/images/noticed.png?raw=true" alt="noticed logo"/>
 </p>
 
+# NØTICED LUXURY FASHION WEBSITE
 This project is a website to showcase items of clothing, footwear and face masks which may be supplied directly via the website.
 
 NØTICED is a luxury fashion brand, so we expect a luxury feel in the user experience of the website with detailed information about the items.
@@ -41,7 +40,7 @@ https://wireframe.cc/pro/pp/2835a5c82345276#retj2yvu
 
 
 ## Existing Features
-The site currently consists of a Navigational Bar and Footer common across the following pages:-
+The site currently consists of a Navigational Bar and Footer, both are common across the following pages:-
 
 * Home
 
@@ -62,11 +61,13 @@ The site currently consists of a Navigational Bar and Footer common across the f
 ## Technologies Used
 Technologies used for this site are follows:-
 
-HTML
+- HTML
 
-CSS
+- CSS
 
-Bootstrap 4
+- Bootstrap 4
+
+- Tutorialzine
 
 ## Testing
 HTML Files were validated using the following website:-
@@ -125,6 +126,9 @@ The site is Responsive acieved using Bootstrap 4 "row and columns", tested for W
 Initially the site was produced using desk top as the reference, however during testing the view on iPad was not representative, so the font weights and sizes were modified
 for the text, making them more vivid.
 
+A speed test was done to detaermine how quickly the site loads with the following results:-
+
+
 
 
 
@@ -154,20 +158,42 @@ https://docs.github.com/en/github/working-with-github-pages/configuring-a-publis
 
 
 ## Content
-The Code 
+The Code consists of a number of elements; header, footer, which are common across all pages and the Main Section which is unique to each page.
 
+Styling across the different Main Sections of the site has as similar esthetic. 
 
+### Header
+The header section featuring the 'Navigation Bar'.
+Bootstrap is used to divide the screen using the Row & Columns philosophy
+
+The first 3rd of the Navigation Bar features the NØTICED logo with the remaining two-thirds reserved for the navigation menu. To complement the logo and provide a seamless elegant look, black was selected for the back-ground colour.
+
+### Footer
+The footer section is taken form the Rosie Odenkirk Exercise & modified for use here. Links aare provided for the home pages of the social media sites for illustration, as the website is not curretly active.
+
+### Main Sections
+For the 'Home' Page the main section features rich imagery exuding a great feeling of quality and aspirational luxury to introduce the site.
+with a strap line quotation form the proprietor.
+
+In the future this can be made more elaborate with a carousel or promotional video.
+
+'About', similarly is a simplified page introducing the origins of the brand, highlighting its organic development.
+
+'Selection' uses the BootStrap philosphy to showcase three items with individual styling and the addition of a 'Buy item' button which links to a purchasing modal, the form was adapted from a template from Tutorialzine. 
+In order to preserve the user experience of the site on small devices Selection displays a single item per page on a small screen 
+
+'Contact' is the last page and features an form for taking contact details.
 
 ## Media
-The imagery used in this site were obtained from Unsplash.com providing copyright free imagery.
+The imagery used in this site were obtained from unsplash.com providing copyright free imagery.
 https://unsplash.com/s/photos/clothing
 
 ## Acknowledgements
-Inspiration for this web site may be attributed to Luke Menswear, with time permitting I would like to incorporate many of the elements and styling used on this website
+Inspiration for this web site may be attributed to Luke Menswear, with time permitting, in the futurte I would like to incorporate many of the elements and styling used on this website http://luke1977.com
 
-http://luke1977.com
+Thanks to my co-students on slack for guidance and past postings offering clarifications and a good knowledge base on which to draw on in the face of confusion and bewilderment.
 
-Credit with appreciation to individual photographers as follows:-
+Credit to unsplash for the lovely imagery and saving me a photo-shoot with appreciation to individual photographers as follows:-
 
 anne-nygard-yPJeQRCeOdk-unsplash
 
@@ -180,4 +206,8 @@ david-lezcano-NfZiOJzZgcg-unsplash
 oliver-cole-RIA_1Yp76uY-unsplash
 
 anomaly-WWesmHEgXDs-unsplash
+
+Tutorialzine (tutorialzine.com) for the form template.
+
+Special thanks & appreciation to Felipe Souza Alarcon, my mentor.
 
